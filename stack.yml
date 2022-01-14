@@ -1,0 +1,13 @@
+name: html
+icon: html
+title: HTML
+
+services:
+- name: nginx
+  title: Nginx
+  service: nginx
+  required: true
+  options:
+  - version: 1.21
+  - version: 1.20
+    default: true
