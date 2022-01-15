@@ -7,7 +7,18 @@ services:
   title: Nginx
   service: nginx
   required: true
-  options:
-  - version: 1.21
-  - version: 1.20
-    default: true
+  containers:
+  - name: nginx
+    env:
+    - name: NGINX_VHOST_PRESET
+      value: html
+
+- name: httpd
+  title: Apache HTTP server
+  service: httpd
+  containers:
+  - name: nginx
+    env:
+    - name: APACHE_VHOST_PRESET
+      value: html
+  
