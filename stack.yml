@@ -15,6 +15,7 @@ services:
 
 - name: httpd
   title: Apache HTTP server
+  disabled: true  
   service: httpd
   containers:
   - name: nginx
