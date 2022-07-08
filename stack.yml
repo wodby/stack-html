@@ -12,14 +12,3 @@ services:
     env:
     - name: NGINX_VHOST_PRESET
       value: html
-
-- name: httpd
-  title: Apache HTTP server
-  disabled: true  
-  service: httpd
-  containers:
-  - name: nginx
-    env:
-    - name: APACHE_VHOST_PRESET
-      value: html
-  
