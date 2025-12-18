@@ -1,1 +1,1 @@
-# Static HTLM stack for Wodby 2.0
+# Static HTML stack for Wodby 2.0
