@@ -7,8 +7,3 @@ services:
   title: Nginx
   service: nginx
   required: true
-  containers:
-  - name: nginx
-    env:
-    - name: NGINX_VHOST_PRESET
-      value: html
