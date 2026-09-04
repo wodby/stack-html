@@ -19,7 +19,7 @@ composition for HTML.
 Use one of the compatible boilerplates exposed by this stack's services to
 start with Wodby CI build configuration:
 
-- [React boilerplate](https://github.com/wodby/react-boilerplate)
+- [HTML boilerplate](https://github.com/wodby/html-boilerplate)
 
 ## Service definitions
 
@@ -45,7 +45,7 @@ wodby stack validate-manifest stack.yml --org <org-id>
 
 ## Deploy this stack
 
-Start from [React boilerplate](https://github.com/wodby/react-boilerplate), or connect your own compatible source
+Start from [HTML boilerplate](https://github.com/wodby/html-boilerplate), or connect your own compatible source
 repository.
 
 Review service versions, storage, links, and optional components when creating
