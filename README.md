@@ -24,12 +24,14 @@ start with Wodby CI build configuration:
 ## Service definitions
 
 - [Nginx service](https://github.com/wodby/service-nginx)
+- [Apache HTTP server service](https://github.com/wodby/service-httpd)
 
 ## What's included
 
 | Component / service | Default configuration |
 | --- | --- |
-| Nginx<br>`nginx` | required; enabled by default |
+| Nginx<br>`nginx` | optional; enabled by default |
+| Apache HTTP Server<br>`httpd` | optional; disabled by default |
 
 Enabled optional services are selected by default but can be excluded when an
 app is created. Disabled optional services are available but not selected by
